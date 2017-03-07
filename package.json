@@ -1,0 +1,27 @@
+{
+  "name": "bitrepublic-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "start:dev": "nodemon app/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/blockchainfff/bitrepublic-poc.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "rguitter@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockchainfff/bitrepublic-poc/issues"
+  },
+  "homepage": "https://github.com/blockchainfff/bitrepublic-poc#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
